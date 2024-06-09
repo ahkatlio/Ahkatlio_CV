@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.6.9)  9 JUN 2024 21:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.6.9)  9 JUN 2024 21:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -753,21 +753,22 @@ Package hyperref Info: Link coloring ON on input line 104.
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomeb
 rands0.fd)
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomef
-ree1.fd) [1
+ree1.fd)
+\blx@maxsegment@1=\count425
+\blx@sectionciteorder@1=\count426
+Package biblatex Info: Reference section=1 on input line 193.
+Package biblatex Info: Setting label 'refsection:1' on input line 193.
+
+
+LaTeX Warning: Empty bibliography on input line 195.
+
+Package biblatex Info: Reference section=0 on input line 196.
+[1
 
 {C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/hp/AppD
 ata/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users
-/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}]
-\blx@maxsegment@1=\count425
-\blx@sectionciteorder@1=\count426
-Package biblatex Info: Reference section=1 on input line 194.
-Package biblatex Info: Setting label 'refsection:1' on input line 194.
-
-
-LaTeX Warning: Empty bibliography on input line 196.
-
-Package biblatex Info: Reference section=0 on input line 197.
-[2] (cv.aux)
+/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}] [
+2] (cv.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -790,7 +791,7 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 Here is how much of TeX's memory you used:
  20525 strings out of 474592
  373548 string characters out of 5747216
- 1942533 words of memory out of 5000000
+ 1944533 words of memory out of 5000000
  42493 multiletter control sequences out of 15000+600000
  562637 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -805,7 +806,7 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
 Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb
 ><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb>
-Output written on cv.pdf (2 pages, 112850 bytes).
+Output written on cv.pdf (2 pages, 112268 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
