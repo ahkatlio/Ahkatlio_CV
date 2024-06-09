@@ -1,3 +1,4 @@
+
 %-----------------------------------------------------------------------------------------------------------------------------------------------%
 %	The MIT License (MIT)
 %
@@ -26,7 +27,7 @@
 %----------------------------------------------------------------------------------------
 
 % article class because we want to fully customize the page and not use a cv template
-\documentclass[a4paper,12pt]{article}
+\documentclass[letterpaper,12pt]{article}
 
 %----------------------------------------------------------------------------------------
 %	FONT
@@ -97,32 +98,6 @@
 %debug page outer frames
 %\usepackage{showframe}
 
-
-% job listing environments
-\newenvironment{jobshort}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    }
-    {
-    }
-
-\newenvironment{joblong}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    \begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
-    }
-    {
-    \end{itemize}
-    \end{minipage}    
-    }
-
-
-
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
 %----------------------------------------------------------------------------------------
@@ -142,11 +117,11 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Abdullah Al Omar Galib} \\[7.5pt]
-\href{https://github.com/ahkatlio}{\raisebox{-0.05\height}\faGithub\ ahkatlio} \ $|$ \ 
-\href{https://www.linkedin.com/in/abdullah-al-omar-galib-30b6b1258/}{\raisebox{-0.05\height}\faLinkedin\ Abdullah Al Omar Galib} \ $|$ \ 
-\href{https://abdullahalomargalib.netlify.app/}{\raisebox{-0.05\height}\faGlobe \ abdullahalomargalib.netlify.app} \ $|$ \ 
-\href{mailto:abdullah.al.omargalib@g.bracu.ac.bd}{\raisebox{-0.05\height}\faEnvelope \ abdullah.al.omargalib@g.bracu.ac.bd} \ $|$ \ 
+    \Huge{Abdullah Al Omar Galib} \\[7.5pt]
+    \href{https://github.com/ahkatlio}{\raisebox{-0.05\height}\faGithub\ ahkatlio} \ $|$ \ 
+    \href{https://www.linkedin.com/in/abdullah-al-omar-galib-30b6b1258/}{\raisebox{-0.05\height}\faLinkedin\ Abdullah Al Omar Galib} \ $|$ \ 
+    \href{https://abdullahalomargalib.netlify.app/}{\raisebox{-0.05\height}\faGlobe \ My website} \ $|$ \ 
+    \href{mailto:abdullah.al.omargalib@g.bracu.ac.bd}{\raisebox{-0.05\height}\faEnvelope \ abdullah.al.omargalib@g.bracu.ac.bd} \ 
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -155,21 +130,45 @@
 
 %Interests/ Keywords/ Summary
 \section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+This CV can also be automatically complied and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
 
-%Experience
-\section{Work Experience}
+% Work and Research Experience
+\section{Work and Research Experience}
 
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Co-Founder \& Vice President} & \hfill July 2023 - present \\[1.5pt]
+\textbf{Quantum High School Organization} & \\[1.5pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=1pt]
+        \item[--] Spreading quantum education globally through online initiatives, including webinars, workshops, and interactive content.
+        \item[--] Successfully managing and moderating a Discord community with 500+ members, fostering a collaborative and engaging environment for quantum enthusiasts.
+        \item[--] Instructed and mentored over 500 students in quantum computing, modifying the educational approach to suit the needs of diverse learners. This involved creating customized lesson plans, interactive exercises, and providing regular feedback.
+        \item[--] Demonstrated leadership by establishing and maintaining three resource hubs: one on our LinkedIn page, another on our website, and a vibrant interactive hub on our Discord community.
+        \item[--] Organized and led two highly successful quantum education events. The first event was dedicated to teaching quantum computing to beginners, ranging from high school students to graduate students, and was attended by over 300 participants. The second event focused on cutting-edge quantum computing research. Both events received positive feedback and contributed to the growth of quantum education and research.
+        \item[--] Developed a comprehensive \& free educational material on quantum computing for complete beginners, including introductory videos, articles, hands-on exercises, and engaging animations. These resources have been widely accessed and have helped newcomers to grasp the fundamentals of quantum computing.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
 
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Research Intern} & \hfill July 2023 - August 2023 \\[1.5pt]
+\textbf{QWorld} & \\[1.5pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=1pt]
+        \item[--] Conducted an extensive and rigorous investigation into various approaches for Quantum State Tomography (QST), encompassing classical and quantum methodologies.
+        \item[--] Explored classical techniques, including maximum likelihood estimation and Bayesian methods, and compared them to quantum tomography algorithms.
+        \item[--] Implemented and compared different Quantum Machine Learning (QML) approaches for QST, such as supervised and unsupervised learning techniques, to assess their performance and accuracy. Utilized cutting-edge quantum hardware and quantum simulators to conduct QST on multi-qubit networks and complex entangled states.
+        \item[--] Achieved an impressive 98\% fidelity in the quantum state reconstruction process, validating the effectiveness and precision of the chosen methodologies.
+        \item[--] The project was recognized for excellence, receiving both the Best Project and Best Presentation awards, highlighting the quality of research and communication skills.
+        \item[--] The research findings and results were documented in a comprehensive research paper, contributing to the scientific community's understanding of quantum state tomography.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
 
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
-\end{joblong}
-  
 %Projects
 \section{Projects}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.6.9)  9 JUN 2024 20:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.6.9)  9 JUN 2024 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -629,8 +629,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip85
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 90.
-Package hyperref Info: Option `breaklinks' set `true' on input line 90.
+Package hyperref Info: Option `colorlinks' set `true' on input line 91.
+Package hyperref Info: Option `breaklinks' set `true' on input line 91.
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5.
 sty
@@ -652,24 +652,24 @@ mapping.def)))
  (cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -698,24 +698,24 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(29.87721pt, 537.75343pt, 29.87723pt)
-* v-part:(T,H,B)=(33.80392pt, 760.53699pt, 50.70593pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=537.75343pt
-* \textheight=760.53699pt
-* \oddsidemargin=-42.39278pt
-* \evensidemargin=-42.39278pt
-* \topmargin=-75.46606pt
+* h-part:(L,W,R)=(30.71663pt, 552.86174pt, 30.71663pt)
+* v-part:(T,H,B)=(31.80072pt, 715.46812pt, 47.70114pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=552.86174pt
+* \textheight=715.46812pt
+* \oddsidemargin=-41.55336pt
+* \evensidemargin=-41.55336pt
+* \topmargin=-77.46927pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=44.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -742,9 +742,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'cv.bbl' not found.
 
 No file cv.bbl.
-Package biblatex Info: Reference section=0 on input line 129.
-Package biblatex Info: Reference segment=0 on input line 129.
-Package hyperref Info: Link coloring ON on input line 129.
+Package biblatex Info: Reference section=0 on input line 104.
+Package biblatex Info: Reference segment=0 on input line 104.
+Package hyperref Info: Link coloring ON on input line 104.
 (cv.out) (cv.out)
 \@outlinefile=\write4
 \openout4 = `cv.out'.
@@ -753,25 +753,21 @@ Package hyperref Info: Link coloring ON on input line 129.
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomeb
 rands0.fd)
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomef
-ree1.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 168--172
-
- []
-
-\blx@maxsegment@1=\count425
-\blx@sectionciteorder@1=\count426
-Package biblatex Info: Reference section=1 on input line 199.
-Package biblatex Info: Setting label 'refsection:1' on input line 199.
-
-LaTeX Warning: Empty bibliography on input line 201.
-
-Package biblatex Info: Reference section=0 on input line 202.
-[1
+ree1.fd) [1
 
 {C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/hp/AppD
 ata/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users
-/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}] (
-cv.aux)
+/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}]
+\blx@maxsegment@1=\count425
+\blx@sectionciteorder@1=\count426
+Package biblatex Info: Reference section=1 on input line 198.
+Package biblatex Info: Setting label 'refsection:1' on input line 198.
+
+
+LaTeX Warning: Empty bibliography on input line 200.
+
+Package biblatex Info: Reference section=0 on input line 201.
+[2] (cv.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -781,7 +777,7 @@ L3 programming layer <2023-11-01>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: D973FBA3EB089568E31074C0EBD68707;546.
+(rerunfilecheck)             Checksum: 3581B4A86DC93593CB659EB0D0DBEC19;617.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                cv
@@ -792,13 +788,13 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20533 strings out of 474592
- 373724 string characters out of 5747216
- 1941533 words of memory out of 5000000
- 42502 multiletter control sequences out of 15000+600000
+ 20525 strings out of 474592
+ 373548 string characters out of 5747216
+ 1943533 words of memory out of 5000000
+ 42493 multiletter control sequences out of 15000+600000
  562637 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,9n,81p,1193b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,11n,81p,1193b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/Fo
 ntAwesome5Brands-Regular.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/hp/AppData/Local/
@@ -809,9 +805,9 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
 Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb
 ><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb>
-Output written on cv.pdf (1 page, 105611 bytes).
+Output written on cv.pdf (2 pages, 113609 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
+ 95 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
