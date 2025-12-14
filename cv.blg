@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2026/dev/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: cv.aux
+The style file: plainurl.bst
+Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=8) to 20 items from 10.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Database file #1: publications.bib
+You've used 2 entries,
+            2943 wiz_defined-function locations,
+            649 strings with 5476 characters,
+and the built_in function-call counts, 980 in all, are:
+= -- 96
+> -- 50
+< -- 0
++ -- 18
+- -- 16
+* -- 61
+:= -- 174
+add.period$ -- 8
+call.type$ -- 2
+change.case$ -- 13
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 23
+empty$ -- 77
+format.name$ -- 16
+if$ -- 237
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 15
+num.names$ -- 4
+pop$ -- 20
+preamble$ -- 1
+purify$ -- 11
+quote$ -- 0
+skip$ -- 65
+stack$ -- 0
+substring$ -- 18
+swap$ -- 4
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 0
+while$ -- 5
+width$ -- 3
+write$ -- 27
