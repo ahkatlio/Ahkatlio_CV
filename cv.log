@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.12.13)  14 DEC 2025 20:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.12.13)  14 DEC 2025 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -848,19 +848,19 @@ Underfull \hbox (badness 10000) detected at line 99
 
 
 LaTeX Font Warning: Font shape `T1/ppl/sb/n' undefined
-(Font)              using `T1/ppl/b/n' instead on input line 107.
+(Font)              using `T1/ppl/b/n' instead on input line 108.
 
 
-Underfull \hbox (badness 10000) detected at line 107
+Underfull \hbox (badness 10000) detected at line 108
 \T1/ppl/m/n/8 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/ppl/sb/n' undefined
-(Font)              using `T1/ppl/b/n' instead on input line 115.
+(Font)              using `T1/ppl/b/n' instead on input line 116.
 
 
-Underfull \hbox (badness 10000) detected at line 115
+Underfull \hbox (badness 10000) detected at line 116
 \T1/ppl/m/n/8 .
  []
 
@@ -883,14 +883,14 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: D9964E1FA9995964995554BE9C0AFEA1;1102.
+(rerunfilecheck)             Checksum: 91DA6E2AF24C7038BAAE3B6C45C8CD8E;1444.
  ) 
 Here is how much of TeX's memory you used:
- 26825 strings out of 475171
- 508628 string characters out of 5767094
- 931504 words of memory out of 5000000
- 49196 multiletter control sequences out of 15000+600000
- 598604 words of font info for 181 fonts, out of 8000000 for 9000
+ 26831 strings out of 475171
+ 508686 string characters out of 5767094
+ 934504 words of memory out of 5000000
+ 49198 multiletter control sequences out of 15000+600000
+ 598763 words of font info for 183 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  129i,11n,129p,999b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Reg
@@ -899,10 +899,10 @@ e-Solid.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></u
 sr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on cv.pdf (1 page, 154834 bytes).
+Output written on cv.pdf (1 page, 158088 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 54365 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 15 named destinations out of 1000 (max. 500000)
+ 54373 words of extra memory for PDF output out of 61914 (max. 10000000)
 
