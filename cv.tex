@@ -1,217 +1,198 @@
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-%	The MIT License (MIT)
+%%%%%%%%%%%%%%%%%
+% This is a two-column CV template based on moderncv.cls
+% (v1.0, May 16 2024) written by Genki Ogaki (rockstarogk@gmail.com). Compiles with XeLaTeX.
 %
-%	Copyright (c) 2021 Jitin Nair
-%
-%	Permission is hereby granted, free of charge, to any person obtaining a copy
-%	of this software and associated documentation files (the "Software"), to deal
-%	in the Software without restriction, including without limitation the rights
-%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-%	copies of the Software, and to permit persons to whom the Software is
-%	furnished to do so, subject to the following conditions:
-%	
-%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-%	THE SOFTWARE.
-%	
-%
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
-%	DOCUMENT DEFINITION
-%----------------------------------------------------------------------------------------
+% environment
+\documentclass[11pt,a3paper]{moderncv}
+\moderncvtheme[green]{banking}
+\nopagenumbers{}
 
-% article class because we want to fully customize the page and not use a cv template
-\documentclass[a4paper,12pt]{article}
-
-%----------------------------------------------------------------------------------------
-%	FONT
-%----------------------------------------------------------------------------------------
-
-% % fontspec allows you to use TTF/OTF fonts directly
-% \usepackage{fontspec}
-% \defaultfontfeatures{Ligatures=TeX}
-
-% % modified for ShareLaTeX use
-% \setmainfont[
-% SmallCapsFont = Fontin-SmallCaps.otf,
-% BoldFont = Fontin-Bold.otf,
-% ItalicFont = Fontin-Italic.otf
-% ]
-% {Fontin.otf}
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES
-%----------------------------------------------------------------------------------------
-\usepackage{url}
-\usepackage{parskip} 	
-
-%other packages for formatting
-\RequirePackage{color}
-\RequirePackage{graphicx}
-\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage{inputenc}
 \usepackage[scale=0.9]{geometry}
-
-%tabularx environment
 \usepackage{tabularx}
+\usepackage{mathpazo}
+\usepackage{hyperref}
 
-%for lists within experience section
-\usepackage{enumitem}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+% macro
+\renewcommand*{\labelitemi}{-}
 
-% centered version of 'X' col. type
-\newcolumntype{C}{>{\centering\arraybackslash}X} 
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
 
-%to prevent spillover of tabular into next pages
-\usepackage{supertabular}
-\usepackage{tabularx}
-\newlength{\fullcollw}
-\setlength{\fullcollw}{0.47\textwidth}
-
-%custom \section
-\usepackage{titlesec}				
-\usepackage{multicol}
-\usepackage{multirow}
-
-%CV Sections inspired by: 
-%http://stefano.italians.nl/archives/26
-\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{10pt}{10pt}
-
-%for publications
-\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
-
-%Setup hyperref package, and colours for links
-\usepackage[unicode, draft=false]{hyperref}
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
-\addbibresource{citations.bib}
-\setlength\bibitemsep{1em}
-
-%for social icons
-\usepackage{fontawesome5}
-
-%debug page outer frames
-%\usepackage{showframe}
-
-
-% job listing environments
-\newenvironment{jobshort}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+\newcommand*{\experienceentry}[5][1.5mm]{
+    \subsection{#2} \vspace{-1.5mm}
+    \begin{tabularx}{\textwidth}{LR}
+        {\itshape #3} & {\itshape #4, #5}
     \end{tabularx}
-    }
-    {
-    }
+    \par\addvspace{#1}
+}
 
-\newenvironment{joblong}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+\newcommand*{\educationentry}[4][0.5mm]{
+    \begin{tabularx}{\textwidth}{LR}
+        {\bfseries #3} & {\bfseries #4} \\
     \end{tabularx}
-    \begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
-    }
-    {
-    \end{itemize}
-    \end{minipage}    
-    }
+    {\itshape #2}
+    \par\addvspace{#1}
+}
 
+\newcommand*{\scoreentry}[3][2.5mm]{
+    {\bfseries #2} \\
+    {\itshape #3}
+    \par\addvspace{#1}
+}
 
+% preamble
+\firstname{Abdullah Al Omar}
+\familyname{Galib}
+\address{Dhaka, Bangladesh}{}
 
-%----------------------------------------------------------------------------------------
-%	BEGIN DOCUMENT
-%----------------------------------------------------------------------------------------
+% document
 \begin{document}
 
-% non-numbered pages
-\pagestyle{empty} 
+% Custom fancy header
+\begin{center}
+    \begin{tikzpicture}[remember picture,overlay]
+        \node[rectangle, fill=green!15, anchor=north, minimum width=\paperwidth, minimum height=4.5cm] (box) at (current page.north){};
+    \end{tikzpicture}
+    \vspace{0.5cm}
+    
+    {\Huge\bfseries\color{green!50!black} ABDULLAH AL OMAR GALIB}
+    
+    \vspace{0.3cm}
+    {\Large\color{gray} Quantum Computing Researcher \& AI Enthusiast}
+    
+    \vspace{0.5cm}
+    \begin{tabularx}{\textwidth}{*{4}{>{\centering\arraybackslash}X}}
+        \color{green!50!black}\faMapMarker & \color{green!50!black}\faEnvelope & \color{green!50!black}\faGithub & \color{green!50!black}\faLinkedin \\
+        \small Dhaka, Bangladesh & 
+        \small \href{mailto:abdullah.al.omargalib@g.bracu.ac.bd}{abdullah.al.omargalib@g.bracu.ac.bd} & 
+        \small \href{https://github.com/ahkatlio}{github.com/ahkatlio} & 
+        \small \href{https://www.linkedin.com/in/abdullah-al-omar-galib-30b6b1258/}{LinkedIn Profile}
+    \end{tabularx}
+    
+    \vspace{0.3cm}
+    \textcolor{green!50!black}{\rule{0.8\textwidth}{0.5pt}}
+\end{center}
 
-%----------------------------------------------------------------------------------------
-%	TITLE
-%----------------------------------------------------------------------------------------
+\vspace{0.5cm}
 
-% \begin{tabularx}{\linewidth}{ @{}X X@{} }
-% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
-% \raisebox{-0.05\height}\faGithub\ username \ | \
-% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
-% \end{tabularx}
+% left column
+\begin{minipage}[t]{0.62\textwidth}
+\section{Experience}
+{\small
+\experienceentry{Quantum High School Organization}{Co-Founder \& Vice President}{July 2023 - August 2025}{Global}
+\begin{itemize}
+    \item Spreading quantum education globally through online initiatives, including webinars, workshops, and interactive content.
+    \item Mentored 500+ students in quantum computing, creating tailored lesson plans and interactive content.
+    \item Organized and led two highly successful quantum education events. The first event was dedicated to teaching quantum computing to beginners, ranging from high school students to graduate students, and was attended by over 300 participants. The second event focused on cutting-edge quantum computing research. Both events received positive feedback and contributed to the growth of quantum education and research.
+\end{itemize}
+\vspace{1.0mm}
 
-\begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
-\end{tabularx}
+\experienceentry{QWorld}{Research Intern}{July 2023 - August 2023}{Remote}
+\begin{itemize}
+    \item Researched classical and quantum approaches for Quantum State Tomography (QST).
+    \item Implemented and compared different Quantum Machine Learning (QML) approaches for QST, such as supervised and unsupervised learning techniques, to assess their performance and accuracy. Utilized cutting-edge quantum hardware and quantum simulators to conduct QST on multi-qubit networks and complex entangled states.
+    \item Achieved an impressive 98\% fidelity in the quantum state reconstruction process, validating the effectiveness and precision of the chosen methodologies.
+    \item The research findings and results were documented in a comprehensive research paper, contributing to the scientific community's understanding of quantum state tomography.
+\end{itemize}
+\vspace{1.0mm}
+\experienceentry{iTesseract Technologies Ltd}{Robotics, IoT \& AI Project leader}{Sep 2022 - Nov 2022}{Dhaka, Bangladesh}
+\begin{itemize}
+    \item Developed and implemented AI software with an outstanding 99\% accuracy rate, significantly reducing the risk of accidents and enhancing overall road safety.
+    \item Won the Best Project Director award.
+\end{itemize}
 
-%----------------------------------------------------------------------------------------
-% EXPERIENCE SECTIONS
-%----------------------------------------------------------------------------------------
-
-%Interests/ Keywords/ Summary
-\section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
-
-%Experience
-\section{Work Experience}
-
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
-
-
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
-\end{joblong}
-  
-%Projects
+}
+\vspace{2.0mm}
 \section{Projects}
+{\small
+\newcommand{\project}[3]{
+    \item \href{#2}{\textbf{#1}} - #3
+}
+\begin{itemize}
+    \project
+        {Bronze Pytket (Quantinuum)}
+        {https://gitlab.com/clausia/bronze-pytket}
+        {An introductory quantum computing tutorial using Pytket, created in August 2023 with Quantinuum support.}
+    \project
+        {Quantum Convolutional Neural Networks vs Fully Classical CNNs}
+        {https://github.com/ahkatlio/QCNN-vs-CNN-Performance-Analysis}
+        {Compared hybrid quantum-classical CNNs with classical CNNs on MNIST, achieving 90.54\% accuracy with the quantum model, outperforming the classical model by 8.57\%.}
+    \project
+        {Driving Safety (Machine Learning)}
+        {https://github.com/ahkatlio/Driving_safety}
+        {Created a real-time driving safety application using facial landmark detection and traffic sign recognition, achieving 99\% accuracy.}
+    \project
+        {Quantum Computing Notebook for Beginners}
+        {https://github.com/ahkatlio/QHSO_Basics_of_Qiskit}
+        {Authored a beginner-friendly Jupyter notebook using Qiskit to introduce fundamental quantum computing concepts.}
+    \project
+        {Fruit Detection and Classification}
+        {https://github.com/ahkatlio/Fruit-and-vegetable-image-recognition}
+        {Built a YOLOv8-based model to detect and classify 36 fruit and vegetable classes with 91.68\% mAP, optimized for real-time agricultural applications.}
 
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-\section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
-
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
-
-2022 & Class 12th Some Board \hfill  (Grades) \\
-
-2021 & Class 10th Some Board \hfill  (Grades) \\
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
+\end{itemize}
+}
+\end{minipage}
+\hfill
+% right column
+\begin{minipage}[t]{0.35\textwidth}
+{\small
 \nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
+\bibliographystyle{plainurl} % or IEEEtran
+\bibliography{publications}
+}
 
-%----------------------------------------------------------------------------------------
-%	SKILLS
-%----------------------------------------------------------------------------------------
+
 \section{Skills}
-\begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
-\end{tabularx}
+{\small
+\textbf{Quantum Computing:} Qiskit, Pytket, criq\\
+\textbf{AI \& Machine Learning:} TensorFlow, Keras \\
+\textbf{Software Development:} Unreal Engine 5, Python \\
+\textbf{Community \& Education: }Webinars, Workshops, Lesson Planning, Mentoring \\
+\textbf{Project Management:} Project Leadership, Team Collaboration, Time Management \\
+\textbf{Soft Skills:} Leadership, Communication, Collaboration, Problem-Solving
+}
+\section{Education}
+{\small
+\educationentry{Bachelor of Science - Applied Physics and Electronics}{BRAC University}{Dhaka, Bangladesh}
+Currently pursuing
+\par
+\vspace{3.0mm}
+\educationentry{Higher Secondary School Certificate (HSC)}{St. Joseph Higher Secondary School}{Dhaka, Bangladesh}
+Result: GPA 5.00
+}
+\section{Languages}
+\begin{itemize}
+    \item Bangla (Native)
+    \item English (Advanced)
+\end{itemize}
 
-\vfill
-\center{\footnotesize Last updated: \today}
+
+\section{Awards}
+{\small
+\begin{itemize}
+    \item \textbf{Best Project and Best Presentation awards}, Issued by QWorld, Aug 2023
+    \item Successfully participated in \textbf{unitaryHACK2025} on May 28 - June 11, 2025, and contributed to the quantum open-source ecosystem.
+    \item Discover more about my accolades and achievements by following this \href{https://drive.google.com/drive/folders/1n1txPoDAXv5QNDxpmu_m7q72QB5I_qZ_}{LINK}.
+\end{itemize}
+}
+\end{minipage}
 
 \end{document}

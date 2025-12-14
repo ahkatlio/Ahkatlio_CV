@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{Innan2024}
+N.~Innan, O.I. Siddiqui, S.~Arora, et~al.
+\newblock Quantum state tomography using quantum machine learning.
+\newblock {\em Quantum Machine Intelligence}, 6(1):28, 2024.
+\newblock \href {https://doi.org/10.1007/s42484-024-00162-3}
+  {\path{doi:10.1007/s42484-024-00162-3}}.
+
+\bibitem{Khan2024}
+M.~A. Khan, N.~Innan, A.~A. Galib, and M.~Bennai.
+\newblock Brain tumor diagnosis using quantum convolutional neural networks.
+\newblock {\em ArXiv}, 2024.
+\newblock URL: \url{https://arxiv.org/abs/2401.15804}.
+
+\end{thebibliography}
