@@ -70,7 +70,7 @@
     \begin{tikzpicture}[remember picture,overlay]
         \node[rectangle, fill=green!15, anchor=north, minimum width=\paperwidth, minimum height=4.5cm] (box) at (current page.north){};
     \end{tikzpicture}
-    \vspace{0.5cm}
+    \vspace{0.005cm}
     
     {\Huge\bfseries\color{green!50!black} ABDULLAH AL OMAR GALIB}
     
@@ -90,12 +90,21 @@
     \textcolor{green!50!black}{\rule{0.8\textwidth}{0.5pt}}
 \end{center}
 
-\vspace{0.5cm}
+\vspace{-0.3cm}
 
 % left column
 \begin{minipage}[t]{0.62\textwidth}
 \section{Experience}
 {\small
+\experienceentry{UAM Competitive Programming \& Research Association (CPrA)}{Co-Organizer \& Associate}{June 2025 - Present}{Madrid, Spain (Hybrid/Remote)}
+\begin{itemize}
+    \item Co-led MadQFF'25 (Madrid Qiskit Fall Fest 2025), a 3-week international quantum computing festival at Universidad Autónoma de Madrid, attracting global participants through a hybrid format.
+    \item Coordinated 20+ expert speakers from IBM Quantum, Pasqal, Multiverse Computing, and ICFO, and facilitated 7+ hands-on workshops on quantum algorithms, ML, and applications.
+    \item Organized a 4-day hackathon with daily challenges, creating original problems to test participants' skills in building quantum applications with Qiskit.
+    \item Contributed as web developer for the official event website, ensuring seamless registration and resource access.
+\end{itemize}
+\vspace{1.0mm}
+
 \experienceentry{Quantum High School Organization}{Co-Founder \& Vice President}{July 2023 - August 2025}{Global}
 \begin{itemize}
     \item Spreading quantum education globally through online initiatives, including webinars, workshops, and interactive content.
@@ -112,12 +121,6 @@
     \item The research findings and results were documented in a comprehensive research paper, contributing to the scientific community's understanding of quantum state tomography.
 \end{itemize}
 \vspace{1.0mm}
-\experienceentry{iTesseract Technologies Ltd}{Robotics, IoT \& AI Project leader}{Sep 2022 - Nov 2022}{Dhaka, Bangladesh}
-\begin{itemize}
-    \item Developed and implemented AI software with an outstanding 99\% accuracy rate, significantly reducing the risk of accidents and enhancing overall road safety.
-    \item Won the Best Project Director award.
-\end{itemize}
-
 }
 \vspace{2.0mm}
 \section{Projects}
@@ -159,6 +162,27 @@
         {https://github.com/ahkatlio/C_Flex}
         {Assembled a diverse set of Python utilities and experiments as a creative coding playground, including a terminal-based Markdown previewer with navigation and rendering features, AI tools for math solving and chatting, games like Conway's Game of Life, media downloaders, and a WiFi scanner. Employed libraries such as Rich and Curses for UI, emphasizing modular development, experimentation, and cross-platform compatibility via installation scripts.}
 
+\end{itemize}
+}
+
+\vspace{2.0mm}
+\section{Open Source Contribution}
+{\small
+\newcommand{\opensource}[4]{
+    \item \href{#2}{\textbf{#1}} \textit{(#3)} \\
+    #4
+}
+\begin{itemize}
+    \opensource
+        {Project Name}
+        {https://github.com/project}
+        {Role/Contribution Type}
+        {Brief description of your contribution and impact.}
+    \opensource
+        {Another Project}
+        {https://github.com/project2}
+        {Role/Contribution Type}
+        {Brief description of your contribution and impact.}
 \end{itemize}
 }
 \end{minipage}
