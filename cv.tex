@@ -70,7 +70,7 @@
     \begin{tikzpicture}[remember picture,overlay]
         \node[rectangle, fill=green!15, anchor=north, minimum width=\paperwidth, minimum height=4.5cm] (box) at (current page.north){};
     \end{tikzpicture}
-    \vspace{0.005cm}
+    \vspace{0.5cm}
     
     {\Huge\bfseries\color{green!50!black} ABDULLAH AL OMAR GALIB}
     
@@ -160,7 +160,7 @@
     \project
         {C\_Flex: A Collection of Whimsical Python Tools}
         {https://github.com/ahkatlio/C_Flex}
-        {Assembled a diverse set of Python utilities and experiments as a creative coding playground, including a terminal-based Markdown previewer with navigation and rendering features, AI tools for math solving and chatting, games like Conway's Game of Life, media downloaders, and a WiFi scanner. Employed libraries such as Rich and Curses for UI, emphasizing modular development, experimentation, and cross-platform compatibility via installation scripts.}
+        {A creative coding playground featuring diverse Python utilities including a terminal-based Markdown previewer, AI tools, Conway's Game of Life, and media downloaders, utilizing Rich and Curses libraries for UI with cross-platform compatibility.}
 
 \end{itemize}
 }
@@ -168,21 +168,26 @@
 \vspace{2.0mm}
 \section{Open Source Contribution}
 {\small
-\newcommand{\opensource}[4]{
-    \item \href{#2}{\textbf{#1}} \textit{(#3)} \\
-    #4
+\newcommand{\opensource}[3]{
+    \item \href{#2}{\textbf{#1}} - #3
 }
 \begin{itemize}
     \opensource
-        {Project Name}
-        {https://github.com/project}
-        {Role/Contribution Type}
-        {Brief description of your contribution and impact.}
+        {Mitiq}
+        {https://github.com/unitaryfund/mitiq}
+        {Authored tutorial on error mitigation pipeline integrating Pauli Twirling, Digital Dynamical Decoupling, Readout Error Mitigation, and Zero-Noise Extrapolation using Cirq.}
     \opensource
-        {Another Project}
-        {https://github.com/project2}
-        {Role/Contribution Type}
-        {Brief description of your contribution and impact.}
+        {PauliPropagation.jl}
+        {https://github.com/MSRudolph/PauliPropagation.jl}
+        {Developed Python usage example notebook for Julia-based Pauli propagation library for quantum error analysis.}
+    \opensource
+        {Qualtran}
+        {https://github.com/quantumlib/Qualtran}
+        {Added comprehensive docstrings to fundamental quantum gates (CZPowGate, Rx, Ry) in Google's quantum circuit library.}
+    \opensource
+        {scqubits}
+        {https://github.com/scqubits/scqubits}
+        {Enhanced documentation with detailed function explanations and updated example notebooks for superconducting qubits simulation.}
 \end{itemize}
 }
 \end{minipage}
