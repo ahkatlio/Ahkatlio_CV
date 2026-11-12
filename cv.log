@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.4.30)  18 JUN 2026 21:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.10.21)  12 NOV 2026 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -215,17 +215,17 @@ moderncv: academicons requires XeTeX/LuaTeX to work. Using alternatives.
 Package: moderncviconsawesome 2026-01-31 v2.5.1 modern curriculum vitae icons: 
 awesome
 
-(/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
+(/home/ahkatlio/texmf/tex/latex/fontawesome5/fontawesome5.sty
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
 
 (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
-(/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
+(/home/ahkatlio/texmf/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
 Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
 tawesome5
 
-(/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def))))
+(/home/ahkatlio/texmf/tex/latex/fontawesome5/fontawesome5-mapping.def))))
 (/usr/share/texmf-dist/tex/latex/moderncv/moderncviconstikz.sty
 Package: moderncviconstikz 2026-01-31 v2.5.1 modern curriculum vitae and letter
  icons: tickz
@@ -551,7 +551,7 @@ Package: arydshln 2019/02/21 v1.76
 \listitemsymbolwidth=\skip100
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
 nput line 89.
- (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
+ (/home/ahkatlio/texmf/tex/latex/fontawesome5/ufontawesomefree0.fd)
 \listitemcolumnwidth=\skip101
 \listdoubleitemcolumnwidth=\skip102
 \listitemsymbolspace=\skip103
@@ -828,9 +828,9 @@ Package hyperref Info: Link coloring ON on input line 66.
 (/usr/share/texmf-dist/tex/latex/psnfss/omszplm.fd)
 (/usr/share/texmf-dist/tex/latex/psnfss/omxzplm.fd)
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1zplm.fd)
-(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
+(/home/ahkatlio/texmf/tex/latex/fontawesome5/ufontawesomefree2.fd)
+(/home/ahkatlio/texmf/tex/latex/fontawesome5/ufontawesomefree1.fd)
+(/home/ahkatlio/texmf/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 Overfull \hbox (8.3623pt too wide) in paragraph at lines 88--88
  []|[][]\T1/ppl/m/n/10 (-20) abdullah.al.omargalib@g.bracu.ac.bd[][]| 
  []
@@ -846,19 +846,28 @@ Underfull \hbox (badness 10000) detected at line 100
 
 
 LaTeX Font Warning: Font shape `T1/ppl/sb/n' undefined
-(Font)              using `T1/ppl/b/n' instead on input line 109.
+(Font)              using `T1/ppl/b/n' instead on input line 106.
 
 
-Underfull \hbox (badness 10000) detected at line 109
+Underfull \hbox (badness 10000) detected at line 106
 \T1/ppl/m/n/8 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/ppl/sb/n' undefined
-(Font)              using `T1/ppl/b/n' instead on input line 117.
+(Font)              using `T1/ppl/b/n' instead on input line 115.
 
 
-Underfull \hbox (badness 10000) detected at line 117
+Underfull \hbox (badness 10000) detected at line 115
+\T1/ppl/m/n/8 .
+ []
+
+
+LaTeX Font Warning: Font shape `T1/ppl/sb/n' undefined
+(Font)              using `T1/ppl/b/n' instead on input line 123.
+
+
+Underfull \hbox (badness 10000) detected at line 123
 \T1/ppl/m/n/8 .
  []
 
@@ -869,47 +878,58 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 )
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 2
-32.
+29.
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-<qrcode.png, id=82, 1003.75pt x 1003.75pt>
+<qrcode.png, id=80, 1003.75pt x 1003.75pt>
 File: qrcode.png Graphic file (type png)
 <use qrcode.png>
-Package pdftex.def Info: qrcode.png  used on input line 247.
+Package pdftex.def Info: qrcode.png  used on input line 244.
 (pdftex.def)             Requested size: 79.85858pt x 79.85747pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
-/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5f
-ree2.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr
-/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texmf
--dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./qrcode.png>] (./cv.aux)
+{/home/ahkatlio/.texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/sha
+re/texmf-dist/fonts/enc/dvips/base/8r.enc}{/home/ahkatlio/texmf/fonts/enc/dvips
+/fontawesome5/fa5free2.enc}{/home/ahkatlio/texmf/fonts/enc/dvips/fontawesome5/f
+a5free1.enc}{/home/ahkatlio/texmf/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{
+/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./qrcode.png>]
+ (./cv.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: F2BE59E929C4324F50FE08ADF598161D;1603.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `cv.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cv.out':
+(rerunfilecheck)             Before: F2BE59E929C4324F50FE08ADF598161D;1603
+(rerunfilecheck)             After:  9B8EDA93EEC918469BBD373F2C3DBFD1;1893.
  ) 
 Here is how much of TeX's memory you used:
- 26919 strings out of 469515
- 509454 string characters out of 5470807
- 963628 words of memory out of 5000000
+ 26911 strings out of 469515
+ 509369 string characters out of 5470806
+ 962677 words of memory out of 5000000
  54897 multiletter control sequences out of 15000+600000
- 669907 words of font info for 217 fonts, out of 8000000 for 9000
+ 669504 words of font info for 211 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  129i,11n,136p,999b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Reg
-ular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Fre
-e-Solid.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></u
-sr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/
-fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pala
-tino/uplri8a.pfb>
-Output written on cv.pdf (1 page, 209854 bytes).
+</home/ahkatlio/texmf/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regu
+lar.pfb></home/ahkatlio/texmf/fonts/type1/public/fontawesome5/FontAwesome5Free-
+Solid.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr
+/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fo
+nts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palati
+no/uplri8a.pfb>
+Output written on cv.pdf (1 page, 209672 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 16 named destinations out of 1000 (max. 500000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
  58482 words of extra memory for PDF output out of 61914 (max. 10000000)
 
